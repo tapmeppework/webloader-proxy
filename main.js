@@ -38,7 +38,7 @@ if (fs.statSync(path0).isFile()) {
 		const configuration = {
 			logPrefix: target,
 			proxy: config.url,
-			// cwd: config.dir, //used during the development
+			// cwd: config.dir, //TODO remove - used during the initial development
 			cwd: path.resolve(root, config.dir ?? ''),
 			// port: config.port || 9033, // Using a custom port leads to an unpleasant delay between switches
 			files: [
@@ -81,7 +81,30 @@ if (fs.statSync(path0).isFile()) {
 			// notify: true,
 		}
 		if (config.port) configuration.port = config.port
+		if (config.delay) configuration.reloadDelay = config.delay
+		if (config.start) configuration.startPath = config.start
 
-		browserSync.init(configuration)
+		let error = undefined
+		let start = end = 0
+		do {
+			error = undefined
+			start = Date.now()
+			try {
+				browserSync.init(configuration)
+			} catch (error0) {
+				error = error0
+			}
+			end = Date.now()
+			if (browserSync.active) {
+				browserSync.cleanup()
+				browserSync.reload()
+			}
+			configuration.open = false //prevent a new tab from being open during the next initiation
+		} while (end - start > 2000) //If delta is higher than 2sec then it is most likely a time out error.
+		// ...
+		if (error) {
+			if (error instanceof Error) throw error
+			else throw new Error(error)
+		}
 	}
 } else throw new Error(`The ${file} file is missing.`)

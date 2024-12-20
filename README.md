@@ -30,15 +30,15 @@ First some definitions.
 	 ```
 3. Run the following commands:
 	 1. If the **root** is **already** using GIT
-			```ps
-			$ git submodule add -- https://github.com/tapmeppework/webreloader.git webreloader
-			$ npm --prefix ./webreloader install
-			```
+		```ps
+		$ git submodule add -- https://github.com/tapmeppework/webreloader.git webreloader
+		$ npm --prefix ./webreloader install
+		```
 	 2. Otherwise
-			```ps
-			$ git clone https://github.com/tapmeppework/webreloader.git webreloader
-			$ npm --prefix ./webreloader install
-			```
+		```ps
+		$ git clone https://github.com/tapmeppework/webreloader.git webreloader
+		$ npm --prefix ./webreloader install
+		```
 
 ### Manually
 1. Download the webreloader project as a .zip file.

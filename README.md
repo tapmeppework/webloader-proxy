@@ -32,12 +32,14 @@ First some definitions.
 	 1. If the **root** is **already** using GIT
 		```ps
 		$ git submodule add -- https://github.com/tapmeppework/webreloader.git webreloader
-		$ npm --prefix ./webreloader install
+		$ cd webreloader
+		$ npm install
 		```
 	 2. Otherwise
 		```ps
 		$ git clone https://github.com/tapmeppework/webreloader.git webreloader
-		$ npm --prefix ./webreloader install
+		$ cd webreloader
+		$ npm install
 		```
 
 ### Manually

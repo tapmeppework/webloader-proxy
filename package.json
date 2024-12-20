@@ -1,6 +1,6 @@
 {
 	"name": "@tapmeppe/webreloader",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "This project can be used to hot-reload any web application written in PHP during the development stage.",
   "main": "starter.js",
   "scripts": {

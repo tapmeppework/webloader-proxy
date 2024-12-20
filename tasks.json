@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "WEB RELOADER",
+			"type": "shell",
+			"command": "node webloader/main.js",
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"isBackground": true
+		}
+	]
+}

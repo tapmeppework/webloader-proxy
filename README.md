@@ -1,4 +1,4 @@
-# WEB RELOADER (W3B R310@D3R)
+# WEB RELOADER
 
 ## Introduction
 This project can be used to hot-reload any non static web application during the development stage. For example applications written in PHP such WordPress.<br>
@@ -9,7 +9,7 @@ This is done by **mirroring** the web application in 3 main steps:
 
 
 ## Requirements
-You need to have [Node.js && npm](https://nodejs.org/) installed on your pc.
+You need to have [Node.js and npm](https://nodejs.org/) installed on your pc.
 To make sure they are available run the following commands:
 ```ps
 $ node --version
@@ -96,4 +96,4 @@ $ npm start [__TARGET__]
 
 
 ---
-### t@pm3pp3 w0rk - Patrick Meppe (16.12.2024)
+### t@pm3pp3 w0rk - Patrick Meppe (22.12.2024)

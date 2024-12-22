@@ -2,7 +2,7 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"label": "WEB RELOADER",
+			"label": "WebReloader",
 			"type": "shell",
 			"command": "node webloader/main.js",
 			"problemMatcher": [],

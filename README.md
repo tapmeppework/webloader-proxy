@@ -1,11 +1,14 @@
-# WEB RELOADER
+# WebReloader
 
 ## Introduction
-This project can be used to hot-reload any non static web application during the development stage. For example applications written in PHP such WordPress.<br>
+This project can be used to hot-reload any non static web application during the development stage. 
+For example applications written in PHP such as WordPress, Joomla and PrestaShop.<br>
 This is done by **mirroring** the web application in 3 main steps:
 1. The url normally used to access the web application is **proxied**.
 2. The base directory of the web application is **watched**.
 3. Once a modification is detected in the base directory, the proxy is reloaded.
+
+It is based on [browser-sync](https://browsersync.io/).
 
 
 ## Requirements

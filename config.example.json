@@ -1,6 +1,14 @@
 {
 	"afroshops": {
-		"url": "http://afro-shops/",
+		"url": "http://afroshops/",
+		"default": true
+	},
+	"community": {
+		"url": "http://community/",
+		"default": true
+	},
+	"something-awesome": {
+		"url": "http://localhost/",
 		"default": true
 	}
 }

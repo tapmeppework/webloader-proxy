@@ -69,6 +69,7 @@ Each **mirror** can be described with the following information:
 		- It is relative to the **root**.
 		- The **root** is the **parent directory** of the **webreloader**.
 		- If unset the **root** itself will be used.
+	- The __BROWSER__ key is optional. If set the given browser(s), if installed, will be used. More information [here](https://browsersync.io/docs/options#option-browser).
 	- The __DEFAULT__ key is optional. If set the given mirror will run implicitly if no target is entered.
 	- The __FILES__ is an optional list of glob patterns to watch.
 		- By default the following patterns are used:

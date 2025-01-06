@@ -21,7 +21,7 @@ if (fs.statSync(path0).isFile()) {
 	const configuration = JSON.parse(fs.readFileSync(path0, 'utf8'))
 	let [, , target] = process.argv
 	/**
-	 * @type {{url: string, dir: string}}
+	 * @type {{url: string, dir: string, browser: string}}
 	 */
 	let config = configuration[target]
 	if (!config) {
@@ -83,6 +83,7 @@ if (fs.statSync(path0).isFile()) {
 		if (config.port) configuration.port = config.port
 		if (config.delay) configuration.reloadDelay = config.delay
 		if (config.start) configuration.startPath = config.start
+		if (config.browser) configuration.browser = config.browser
 
 		let error = undefined
 		let start = end = 0

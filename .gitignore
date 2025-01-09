@@ -1,15 +1,24 @@
-# PM (DD.MM.20YY)
+# PM (DD.MM.2024)
 
 # project
 /config.json
 
-# environment
+# miscellaneous
+.DS_Store*
+ehthumbs.db
+Thumbs.db
 desktop.ini
-/.vscode/*
-!/.vscode/*.json
+*.lnk
+*.pem
 *.log
 .grunt
 .env
+/.vscode/*
+!/.vscode/*.json
+# .github
+build
 dist
-package-lock.json
 node_modules
+vendor
+package-lock.json
+composer.lock

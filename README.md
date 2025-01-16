@@ -46,7 +46,7 @@ First some definitions.
 		```
 
 ### Manually
-1. Download the webreloader project as a .zip file.
+1. [Download the webreloader project as a .zip file](https://github.com/tapmeppework/webreloader/archive/refs/heads/main.zip).
 2. Extract the .zip file. The result will be a single **non-empty** folder.
 3. Rename the newly created folder to '**webreloader**'.
 4. Move the folder 'webreloader' to your web application. Place it directly under the **root**.
@@ -100,4 +100,4 @@ $ npm start [__TARGET__]
 
 
 ---
-### t@pm3pp3 w0rk - Patrick Meppe (22.12.2024)
+### t@pm3pp3 w0rk - Patrick Meppe (16.01.2025)

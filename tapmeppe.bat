@@ -31,7 +31,7 @@ set "TAPMEPPE_SCRIPT=%~n0%~x0"
 %TAPMEPPE_DIRECTORY:~0,2% && CD "%TAPMEPPE_DIRECTORY%"
 
 @REM set the console tile
-title "t@pm3pp3 w0rk -- W3B R310@D3R"
+title "t@pm3pp3 w0rk -- WebReloader"
 
 if "%1" EQU "config" (
 	echo [36mt@pm3pp3 w0rk -- CONFIGURATION[0m

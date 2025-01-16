@@ -4,11 +4,9 @@
 		"default": true
 	},
 	"community": {
-		"url": "http://community/",
-		"default": true
+		"url": "http://community/"
 	},
 	"something-awesome": {
-		"url": "http://localhost/",
-		"default": true
+		"url": "http://localhost/"
 	}
 }

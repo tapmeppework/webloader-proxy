@@ -62,7 +62,7 @@ Create a file named '**config.json**', then paste the content of the file 'confi
 Each node in the config file represents a **mirror**.
 Each **mirror** can be described with the following information:
 - Mandatory
-	- The __TARGET__: The JSON key used as parameter to identify the mirror to load.
+	- The __TARGET__: The key used as parameter to identify the mirror to load.
 	- The __URL__ to be proxied.
 - Optional
 	- The __BASE_DIRECTORY__ (`dir`) represents the relative path to the base directory to watch. 

@@ -1,18 +1,19 @@
 {
 	"name": "@tapmeppe/webreloader",
-  "version": "0.5.0",
+  "version": "0.5.2",
   "description": "This project can be used to hot-reload any web application written in PHP during the development stage.",
   "main": "main.js",
   "scripts": {
 		"test": "cls && npx gulp",
-		"start": "cls && node main.js",
-		"version": "cls && npx gulp"
+		"start": "node main.js"
   },
   "keywords": [
     "tapmeppe",
-    "t@pm3pp3",
-    "hot-reload",
-		"nodejs"
+    "tapmeppework",
+    "hotreload",
+    "hotreloading",
+		"nodejs",
+		"php"
   ],
   "author": "Patrick Meppe (patrick.meppe@tapmeppe.work)",
   "license": "tapmeppe license",

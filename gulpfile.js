@@ -1,6 +1,7 @@
 /**
- * @deprecated @since PM (17.12.2024) I figured out how to do it with solely browser-sync. @see main.js
- * 																		Later I might reactivate gulp to enable features such as auto-compression of code.
+ * @deprecated @since PM (17.12.2024)
+ * I figured out how to do it with solely browser-sync. @see main.js
+ * Later I might reactivate gulp to enable features such as auto-compression of code.
  * @requires gulp
  */
 const

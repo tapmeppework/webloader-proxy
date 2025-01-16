@@ -1,19 +1,6 @@
 {
-	"__TARGET_1__": {
-		"url": "__URL_1__",
+	"__TARGET__": {
+		"url": "__URL__",
 		"default": true
-	},
-	"__TARGET_2__": {
-		"url": "__URL_2__",
-		"dir": "."
-	},
-	"__TARGET_3__": {
-		"url": "__URL_3__",
-		"dir": ".",
-		"port": 9033
-	},
-	"__TARGET_4__": {
-		"url": "__URL_4__",
-		"dir": "__DIRECTORY_PATH__"
 	}
 }
